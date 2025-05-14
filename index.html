@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HireOS - AI Resume Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>HireOS - Smart Resume Generator</h1>
+    </header>
+    <main>
+        <form id="resumeForm">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" required>
+            
+            <label for="jobTitle">Job Title:</label>
+            <input type="text" id="jobTitle" required>
+
+            <label for="experience">Experience Summary:</label>
+            <textarea id="experience" required></textarea>
+
+            <button type="submit">Generate Resume</button>
+        </form>
+        <div id="output">
+            <h2>Your AI Resume</h2>
+            <p id="resumeText"></p>
+        </div>
+    </main>
+    <footer>
+        <p>Powered by HireOS | AI Career Tools</p>
+    </footer>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
